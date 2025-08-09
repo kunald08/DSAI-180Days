@@ -9,8 +9,8 @@ This repository contains daily lessons, code examples, and practice exercises to
 ### **Day 1 – Getting Started & R Basics**
 - Install R and RStudio
 - Learn RStudio interface
-- Variables, data types, basic math
-- Functions and getting help in R
+- Variables, data types, basic math, operators
+- Conditioinals, Loops, Functions and getting help in R
 
 ### **Day 2 – Vectors & Basic Data Structures**
 - Creating vectors
