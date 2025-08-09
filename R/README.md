@@ -63,14 +63,26 @@ This repository contains daily lessons, code examples, and practice exercises to
 
 ## 📂 Repository Structure
 
-│── 📄 README.md # Overview & plan (this file)
-│── 📄 Day1_Getting_Started_R_Basics.md
-│── 📄 Day1_Getting_Started_R_Basics.R
-│── 📄 Day2_Vectors_Data_Structures.md
-│── 📄 Day2_Vectors_Data_Structures.R
-│── ...
-│── 📄 Day10_Mini_Project.md
+```plaintext
+R-Learning-10Days/
+├── README.md                           # Overview & 10-day learning plan
+├── Day1_Getting_Started_R_Basics.md    # Day 1 theory & explanations
+├── Day1_Getting_Started_R_Basics.R     # Day 1 practice code
+├── Day2_Vectors_Data_Structures.md     # Day 2 theory & explanations
+├── Day2_Vectors_Data_Structures.R      # Day 2 practice code
+├── Day3_Matrices_Lists_DataFrames.md   # Day 3 theory & explanations
+├── Day3_Matrices_Lists_DataFrames.R    # Day 3 practice code
+├── Day4_Import_Export_Data.md          # Day 4 theory & explanations
+├── Day4_Import_Export_Data.R           # Day 4 practice code
+├── Day5_Data_Manipulation_dplyr.md     # Day 5 theory & explanations
+├── Day5_Data_Manipulation_dplyr.R      # Day 5 practice code
+├── Day6_Basic_Visualization_BaseR.md   # Day 6 theory & explanations
+├── Day6_Basic_Visualization_BaseR.R    # Day 6 practice code
+├── Day7_Data_Visualization_ggplot2.md  # Day 7 theory & explanations
+├── Day7_Data_Visualization_ggplot2.R   # Day 7 practice code
+├── Day8_Statistics_in_R.md             # Day 8 theory & explanations
+├── Day8_Statistics_in_R.R              # Day 8 practice code
+├── Day9_Regression_in_R.md             # Day 9 theory & explanations
+├── Day9_Regression_in_R.R              # Day 9 practice code
+└── Day10_Mini_Project.md                # Day 10 final project instructions
 
-yaml
-Copy
-Edit
