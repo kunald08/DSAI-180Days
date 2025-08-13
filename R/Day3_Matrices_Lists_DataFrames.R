@@ -3,7 +3,7 @@
 # 1. Matrices
 
 # Create a 2x3 matrix
-mat <- matrix(1:6, nrow = 2, ncol = 3)
+mat <- matrix(2:7, nrow = 2, ncol = 3)
 print("Matrix:")
 print(mat)
 
