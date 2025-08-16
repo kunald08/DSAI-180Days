@@ -208,4 +208,44 @@ Data_Frame <- data.frame(
 summary(Data_Frame)
 Data_Frame$name    #accessing items
 Data_Frame[2]
-Data_Frame[["name"]]
+
+
+
+## adding new row: rbind()
+Data_Frame <- data.frame (
+  Training = c("Strength", "Stamina", "Other"),
+  Pulse = c(100, 150, 120),
+  Duration = c(60, 30, 45)
+)
+
+# Add a new row
+New_row_DF <- rbind(Data_Frame, c("Strength", 110, 110))
+
+# Print the new row
+New_row_DF
+
+
+Data_Frame <- data.frame (
+  Training = c("Strength", "Stamina", "Other"),
+  Pulse = c(100, 150, 120),
+  Duration = c(60, 30, 45)
+)
+# Add a new column
+New_col_DF <- cbind(Data_Frame, Steps = c(1000, 6000, 2000))
+# Print the new column
+New_col_DF
+
+
+# ----------------------factors--------------------
+# factors are used to categorize data,
+# music: rock, pop, classic, jazz
+
+# Create a factor
+music_genre <- factor(c("Jazz", "Rock", "Classic", "Classic", "Pop", "Jazz", "Rock", "Jazz"))
+# Print the factor
+music_genre
+
+levels(music_genre)
+length(music_genre)
+music_genre[3]
+
