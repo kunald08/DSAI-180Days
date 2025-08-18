@@ -57,14 +57,3 @@ Data_Cars <- mtcars
 quantile(Data_Cars$wt, c(0.75))
 
 quantile(Data_Cars$wt)
-
-
-
-
-
-
-
-
-
-
-
